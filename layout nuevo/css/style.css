@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(138, 219, 106);
+}
+
+header{
+    margin: 5px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 174, 33);
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+nav{
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    height: 4rem;
+}
+
+#articulo{
+    display: flex;
+    height: 35rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto
+}
+
+article{
+    min-width: 400px;
+    justify-content: center;
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    height: 200px;
+    background-color: rgb(238, 248, 226);
+}
+
+div{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    border: 1px solid;
+    margin: 5px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 174, 33);
+}
+
+.main{
+    margin: 5px; 
+    flex-grow: 1;  
+}
+
+.aside2{
+    border: 1px solid;
+    margin: 5px;
+    width: 450px;
+}
+#search{
+    display: flex;
+    flex-grow: 1;
+}
+#e{
+    margin: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: wheat;
+    border-radius: 60%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    padding: 25px;
+    font-size: 40px;
+}
